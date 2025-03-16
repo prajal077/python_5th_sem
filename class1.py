@@ -59,3 +59,14 @@ print(bool)
 
 bytes = b"hello"
 print(bytes)
+
+#type comversion
+
+x = 1
+y = 1.2
+
+a = float(x)
+b = int(y)
+
+print(a)
+print(b)
