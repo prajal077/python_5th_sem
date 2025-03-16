@@ -10,7 +10,7 @@ print("prajal")
 
 x = 10  #This is automatically integer
 name = "prajal" #This is automatically string
-bool = "true"
+bool = True
 
 print(x, name, bool)
 
