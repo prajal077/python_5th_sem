@@ -27,3 +27,11 @@ def myFunc () :
     print("Python is "+a)
 
 myFunc()
+
+#local variable of declared inside a function or a certain scope
+
+def func2() :
+    local = "locVariable"
+    print("This is " +local)
+
+func2()
