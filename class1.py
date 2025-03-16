@@ -20,3 +20,10 @@ print(x, name, bool)
 print(type(x))
 print(type(name))
 print(type(bool))
+
+#global variable
+a = "awesome"
+def myFunc () :
+    print("Python is "+a)
+
+myFunc()
