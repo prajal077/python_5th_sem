@@ -56,3 +56,6 @@ print(ran)
 
 bool = True
 print(bool)
+
+bytes = b"hello"
+print(bytes)
