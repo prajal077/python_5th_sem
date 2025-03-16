@@ -35,3 +35,24 @@ def func2() :
     print("This is " +local)
 
 func2()
+
+#Example of few data types
+
+# 1: Complex
+complex = 1j
+print(complex)
+
+# 2: list
+list = ["apple", "ball", "cat"]
+print(list)
+
+# 3: tuple
+tuple = ("ram", "shyam", "hari")
+print(tuple)
+
+# 4: range
+ran = range(12)
+print(ran)
+
+bool = True
+print(bool)
