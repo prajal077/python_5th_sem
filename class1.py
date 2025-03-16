@@ -13,3 +13,10 @@ name = "prajal" #This is automatically string
 bool = "true"
 
 print(x, name, bool)
+
+
+#getting the data type of a variable
+
+print(type(x))
+print(type(name))
+print(type(bool))
