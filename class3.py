@@ -72,18 +72,39 @@ else :
 
 #break
 
-for i in range (0, 5):
-    if i == 3 :
-        break
-    print(i)
+# for i in range (0, 5):
+#     if i == 3 :
+#         break
+#     print(i)
 
-#continue
+# #continue
 
-for i in range (10, 20) :
-    if i == 15 :
-        continue
-    print(i)
+# for i in range (10, 20) :
+#     if i == 15 :
+#         continue
+#     print(i)
 
-#wap to print table of 5
-for i in range (0, 11):
+# #wap to print table of 5
+# for i in range (0, 11):
     print("5 *",i, "= ", 5*i )
+
+#wap to check if the given number is light, fire or water. If the number is divisible by 5 it is light, if by 6 it is fire and if by 7 it is water
+
+number = int(input("Enter the number to check: "))
+
+if number % 5 == 0 and number % 6 == 0 and number % 7 == 0:
+    print("light, fire, and water")
+elif number % 5 == 0 and number % 6 == 0:
+    print("light and fire")
+elif number % 5 == 0 and number % 7 == 0:
+    print("light and water")
+elif number % 6 == 0 and number % 7 == 0:
+    print("fire and water")
+elif number % 5 == 0:
+    print("It is light")
+elif number % 6 == 0:
+    print("fire")
+elif number % 7 == 0:
+    print("water")
+else:
+    print("none")
