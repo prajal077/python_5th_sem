@@ -76,3 +76,11 @@ for i in range (0, 5):
     if i == 3 :
         break
     print(i)
+
+#continue
+
+for i in range (10, 20) :
+    if i == 15 :
+        continue
+    print(i)
+
