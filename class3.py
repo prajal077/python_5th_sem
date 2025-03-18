@@ -62,10 +62,17 @@ else :
 #loops
  # last ko value chai print hudaina or lidaina
 
-for i in range (0, 5):
-    print(i)
+# for i in range (0, 5):
+#     print(i)
 
-a = 0
-while a<10 :
-    print(a)
-    a+=1
+# a = 0
+# while a<10 :
+#     print(a)
+#     a+=1
+
+#break
+
+for i in range (0, 5):
+    if i == 3 :
+        break
+    print(i)
