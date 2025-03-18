@@ -60,4 +60,12 @@ else :
 #         print("invalid input")
 
 #loops
+ # last ko value chai print hudaina or lidaina
 
+for i in range (0, 5):
+    print(i)
+
+a = 0
+while a<10 :
+    print(a)
+    a+=1
