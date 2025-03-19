@@ -92,3 +92,12 @@ def args (* name) :  #multiple args
         print(name)
 
 args("shyam", "prajal")
+
+
+# ** kwargs
+
+def kwargs (**data) :
+    for k, v in data.items() :
+        print(f"{k} = {v}")
+
+kwargs(name = "prajal", age = 20)
