@@ -41,3 +41,12 @@ def odd (a, b):
             pass
 
 odd (0, 11)
+
+#function types
+# 1. no parameter with no return type
+# 2. with parameter with return type
+
+def name (a, b) :
+    print(a+b)
+
+name("prajal", " bhattarai")
