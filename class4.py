@@ -81,8 +81,14 @@ named(10, "Ram")   # jasto order ma value pathako cha testai aaucha
 
 # *args
 
-def args (name) :
+def args (name) :  # single argument
     for i in name :
         print(name)
 
 args("shyam")
+
+def args (* name) :  #multiple args
+    for i in name :
+        print(name)
+
+args("shyam", "prajal")
