@@ -130,3 +130,6 @@ print(let(3))
 
 name = lambda x : x.upper()
 print(name("prajal"))
+
+add = lambda x, y : x+y
+print(add(3, 2))
