@@ -51,3 +51,29 @@ def name (a, b) :
 
 name("prajal", " bhattarai")
 
+
+#types of paramter in python
+
+# default
+# named
+# *args
+# **kwargs
+# positional arguments
+
+# default
+
+def default (name, age = 20) :  # it is default as age is predefined in the argument. If we pass the value forcefully, it will overwrite the default value else, the default value if printed
+
+    print(f"name = {name} and age = {age}")
+
+default("prajal", 22)
+default("prajal")
+
+
+#named
+
+def named (name, age) :
+    print(f"name = {name} and age = {age}")
+
+named("Ram", 10)
+named(10, "Ram")
