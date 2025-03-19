@@ -76,4 +76,13 @@ def named (name, age) :
     print(f"name = {name} and age = {age}")
 
 named("Ram", 10)
-named(10, "Ram")
+named(10, "Ram")   # jasto order ma value pathako cha testai aaucha
+
+
+# *args
+
+def args (name) :
+    for i in name :
+        print(name)
+
+args("shyam")
