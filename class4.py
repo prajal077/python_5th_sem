@@ -30,3 +30,14 @@ def even (a, b):
             pass
 
 even (0, 11)
+
+# odd number using function and passing range as a parameter
+
+def odd (a, b):
+    for i in range (a, b) :
+        if i % 2 != 0 :
+            print(i)
+        else :
+            pass
+
+odd (0, 11)
