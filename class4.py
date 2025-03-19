@@ -19,3 +19,14 @@ print(div())
 def fun (a, b) :
     print(a+b)
 fun(4, 5)
+
+# even number using function and passing range as a parameter
+
+def even (a, b):
+    for i in range (a, b) :
+        if i % 2 == 0 :
+            print(i)
+        else :
+            pass
+
+even (0, 11)
