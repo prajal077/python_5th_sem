@@ -13,3 +13,9 @@ b = 20
 def div () :
     return b/a
 print(div())
+
+# parameters in function
+
+def fun (a, b) :
+    print(a+b)
+fun(4, 5)
