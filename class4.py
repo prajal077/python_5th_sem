@@ -127,3 +127,6 @@ kwargs(name = "prajal", age = 20)
 
 let = lambda x : x+1
 print(let(3))
+
+name = lambda x : x.upper()
+print(name("prajal"))
