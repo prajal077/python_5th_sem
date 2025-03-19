@@ -106,18 +106,24 @@ kwargs(name = "prajal", age = 20)
 #checking if the number is prime or not
 
 
-def prime (num) :
+# def prime (num) :
 
-    if num == 0 or num == 1 :
-        print("This number is not valid")
-    else :
-        for i in  range (2, num) :
-            if(num % i == 0) :
-                print("It is not prime")
-                break
-            else :
-                print("It is prime")
-                break
+#     if num == 0 or num == 1 :
+#         print("This number is not valid")
+#     else :
+#         for i in  range (2, num) :
+#             if(num % i == 0) :
+#                 print("It is not prime")
+#                 break
+#             else :
+#                 print("It is prime")
+#                 break
 
-numm = int(input("Enter a number to check whether it is prime or not: "))
-prime(numm)
+# numm = int(input("Enter a number to check whether it is prime or not: "))
+# prime(numm)
+
+
+# lambda function
+
+let = lambda x : x+1
+print(let(3))
