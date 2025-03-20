@@ -38,4 +38,21 @@ class add :
 obj = add(2, 3)
 
 
+#static class and static methods
+
+class One :
+    @staticmethod
+    def abc(a, b) :
+        return a + b
+
+print(One.abc(4, 5))
+
+class Two :
+    @classmethod
+    def cdf(cls, a, b) :
+        cls.a = a
+        cls.b = b
+        print(a+b)
+
+Two.cdf(5, 5)
 
