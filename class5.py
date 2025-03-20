@@ -29,3 +29,13 @@ class Kist :
 
 student = Kist("fifth", "prajal")
 
+class add :
+    def __init__(self, a, b) :
+        self.a = a
+        self.b = b
+        print(a+b)
+
+obj = add(2, 3)
+
+
+
