@@ -65,3 +65,20 @@ class Ford(Car) :
 
 obj2 = Ford()
 obj2.details()
+
+
+# inheritance 
+
+class parent :
+    def details(self) :
+        print("This is parent")
+
+class child(parent) :
+    def details(self) :    
+        super().details()
+        print("This is child")
+
+obj3 = child()
+obj3.details()
+
+
