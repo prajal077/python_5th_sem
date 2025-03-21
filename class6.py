@@ -48,3 +48,20 @@ obj1 = add(1, 2, 3)
 obj1.info()
 
 obj1.chanfv(4, 5, 6)
+
+
+
+#ABSTRACTION
+
+from abc import ABC, abstractmethod
+class Car(ABC) :
+    @abstractmethod
+    def details(self) :
+        pass
+
+class Ford(Car) :
+    def details(self) :
+        print("car is ford")
+
+obj2 = Ford()
+obj2.details()
