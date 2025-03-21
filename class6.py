@@ -22,3 +22,29 @@ print(obj._b)
 
 obj.change(50)
 obj.getInfo()
+
+#wap to add 3 numbers using encapsulation. make the 2 values private. chnage the value and then add
+
+class add :
+    def __init__(self, a, b, c):
+        self.a = a
+        self.__b = b
+        self.__c = c
+
+    def info(self) :
+        print(f"a = {self.a}, b = {self.__b}, c = {self.__c}")
+
+    def chanfv(self, a, b, c) :
+        self.a = a
+        self.__b = b
+        self.__c = c    
+
+        print(f"a = {self.a}, b = {self.__b}, c = {self.__c}")
+        print(self.a + self.__b + self.__c )
+
+        
+
+obj1 = add(1, 2, 3)
+obj1.info()
+
+obj1.chanfv(4, 5, 6)
