@@ -67,7 +67,7 @@ obj2 = Ford()
 obj2.details()
 
 
-# inheritance 
+# inheritance => single level
 
 class parent :
     def details(self) :
@@ -80,5 +80,24 @@ class child(parent) :
 
 obj3 = child()
 obj3.details()
+
+# multiple inheritance
+
+class car :
+    def show(self) :
+        print("This is car class")
+
+class bike :
+    def show(self) :
+        print("This is bike class")
+
+class child(car, bike) :
+    def showmethods (self) :
+        car.show(self)
+        bike.show(self)
+        print("This is child class")
+
+objj = child()
+objj.showmethods()
 
 
