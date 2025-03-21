@@ -20,3 +20,5 @@ print(obj.a)
 print(obj._b)
 # print(obj.__c)    This cause error cause we cannot access the private variable from outside the function
 
+obj.change(50)
+obj.getInfo()
