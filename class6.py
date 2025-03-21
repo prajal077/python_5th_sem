@@ -101,3 +101,25 @@ objj = child()
 objj.showmethods()
 
 
+#multilevel inheritance
+
+class A :
+    def show(self) :
+        print("This is class A")
+
+class B(A) :
+    def shows (self) :
+        print("This is classs B")
+
+class C(B) :
+    def showss (self) :
+        print("This is class C")
+
+objB = B()
+objB.show()
+objB.shows()
+
+objC = C()
+objC.shows()
+objC.showss()
+
