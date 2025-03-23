@@ -31,3 +31,6 @@ except NameError as e :
     print("Name error")
 else :
     print("not error")
+
+# API fetching
+
