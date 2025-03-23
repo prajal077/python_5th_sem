@@ -123,3 +123,5 @@ objC = C()
 objC.shows()
 objC.showss()
 
+#another example of  multithreading in python
+
