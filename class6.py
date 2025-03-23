@@ -125,3 +125,23 @@ objC.showss()
 
 #another example of  multithreading in python
 
+class E :
+    def show(self) :
+        print("This is class E")
+
+class F(E) :
+    def shows (self) :
+        print("This is classs F")
+
+class G(F) :
+    def showss (self) :
+        print("This is class G")
+
+objF = F()
+objB.show()
+objB.shows()
+
+objG = G()
+objG.shows()
+objG.showss()
+
